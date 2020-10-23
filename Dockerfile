@@ -1,5 +1,3 @@
-# docker pull ubuntu
-# docker run -it u
 
 FROM ubuntu
 RUN apt-get update && \
@@ -12,7 +10,6 @@ RUN ./Savings_v2--Linux.sh --skip-license
 RUN cd bin
 
 
-# Make available
 EXPOSE 8080l
 
 # Start Server
