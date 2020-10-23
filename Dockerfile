@@ -1,5 +1,5 @@
 # docker pull ubuntu
-#docker run -it u
+# docker run -it u
 
 FROM ubuntu
 
