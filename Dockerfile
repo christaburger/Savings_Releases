@@ -1,8 +1,10 @@
 
-FROM ubuntu:18.04
+FROM ubuntu:18.04 
+
 RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install -y git
+    apt-get install -y git && \
+    apt-get clean 
+ 
 RUN git clone github.com/christaburger/Savings_Releases.git
 RUN cd Savings_Releases
 RUN tar -xf Savings_v2--Linux.tar.gz
