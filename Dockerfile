@@ -3,7 +3,6 @@
 
 FROM ubuntu
 
-# Install Server
 RUN apt install git
 RUN git clone https://github.com/christaburger/Savings_Releases.git
 RUN cd Savings_Releases
