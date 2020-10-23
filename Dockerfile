@@ -11,7 +11,7 @@ RUN ./Savings_v2--Linux.sh --skip-license
 RUN cd bin
 
 
-EXPOSE 8080l
+EXPOSE 8080
 
 # Start Server
 CMD ./Savings_v2
