@@ -3,8 +3,6 @@
 
 FROM ubuntu
 
-MAINTAINER apptheca
-
 # Install Server
 RUN apt install git
 RUN git clone https://github.com/christaburger/Savings_Releases.git
