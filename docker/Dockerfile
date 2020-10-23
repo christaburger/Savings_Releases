@@ -8,7 +8,7 @@ RUN git clone https://github.com/christaburger/savings_releases.git
 
 WORKDIR savings_releases
 RUN ./Savings_v2--Linux.sh --skip-license
-RUN cd bin
+WORKDIR bin
 
 EXPOSE 8080
 
