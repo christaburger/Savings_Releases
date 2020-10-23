@@ -6,11 +6,9 @@ RUN apt-get update && \
     
 RUN git clone https://github.com/christaburger/savings_releases.git
 
-RUN cd savings_releases
-RUN tar -xf Savings_v2--Linux.tar.gz
+WORKDIR savings_releases
 RUN ./Savings_v2--Linux.sh --skip-license
 RUN cd bin
-
 
 EXPOSE 8080
 
