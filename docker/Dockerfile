@@ -10,7 +10,7 @@ WORKDIR savings_releases
 RUN ./Savings_v2--Linux.sh --skip-license
 WORKDIR bin
 
-EXPOSE 8080
+EXPOSE 80
 
 # Start Server
 CMD ./Savings_v2
