@@ -10,6 +10,8 @@ WORKDIR savings_releases
 RUN ./Savings_v2--Linux.sh --skip-license
 WORKDIR bin
 
+ENV PATH="${PATH}:/savings_releases/bin"
+
 EXPOSE 80
 
 # Start Server
