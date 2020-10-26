@@ -12,7 +12,7 @@ WORKDIR bin
 
 ENV PATH="${PATH}:/savings_releases/bin"
 
-EXPOSE 80
+EXPOSE 8081
 
 # Start Server
 CMD ./Savings_v2
