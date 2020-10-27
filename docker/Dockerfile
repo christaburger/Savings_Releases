@@ -15,4 +15,4 @@ ENV PATH="${PATH}:/savings_releases/bin"
 EXPOSE 8080
 
 # Start Server
-CMD ./Savings_v2 
+ENTRYPOINT ["Savings_v2"]
