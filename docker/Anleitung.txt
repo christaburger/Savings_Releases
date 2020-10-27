@@ -1,0 +1,24 @@
+
+rmdir /s savings_releases
+git clone https://github.com/christaburger/savings_releases.git
+cd savings_releases
+docker build docker -t christaburger/savings
+
+docker images
+# docker tag 03b20e1d85b4 christaburger/savings
+
+docker run -d -p 80:8080 --bind 127.0.0.1 --name savserver christaburger/savings
+ 
+
+curl http://localhost:8080
+
+
+direkt von git: --> ?
+
+docker build https://github.com/christaburger/savings_releases.git#docker:master
+
+--------------------------------
+
+docker inspect <container-id>
+
+
