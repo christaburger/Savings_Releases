@@ -7,10 +7,8 @@ RUN apt-get update && \
 RUN git clone https://github.com/christaburger/savings_releases.git
 
 WORKDIR savings_releases
-RUN ./Savings_v2--Linux.sh --skip-license
-WORKDIR bin
 
-ENV PATH="${PATH}:/savings_releases/bin"
+ENV PATH="${PATH}:/savings_releases"
 
 EXPOSE 8080
 
