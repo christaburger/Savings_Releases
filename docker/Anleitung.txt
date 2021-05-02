@@ -21,4 +21,20 @@ docker build https://github.com/christaburger/savings_releases.git#docker:master
 
 docker inspect <container-id>
 
+=============================================================================
+
+digital ocean
+
+mit ssh einloggen: 
+ssh root@46.101.230.171
+
+r98PyndB4FIM
+
+cd savings_releases/docker/
+docker-compose up
+
+
+
+
+
 
