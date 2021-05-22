@@ -14,3 +14,5 @@ EXPOSE 8080
 
 # Start Server
 ENTRYPOINT ["Savings_v2"]
+
+# mysql
