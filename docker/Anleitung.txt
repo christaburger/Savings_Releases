@@ -33,7 +33,21 @@ r98PyndB4FIM
 cd savings_releases/docker/
 docker-compose up
 
+===============================================
 
+Docker-Probleme auf Windows
+docker-cli -switch-daemon (richtigen aufruf suchen)
+
+==============================================
+mysql
+
+mysql_secure_installation
+
+sudo mysql  -u root -p
+71Mz8sBJDr9
+
+CREATE USER 'savingsclient'@'localhost' IDENTIFIED BY '71Mz8sBJDr9%';
+GRANT ALL ON savings.* TO 'savingsclient'@'localhost';
 
 
 
