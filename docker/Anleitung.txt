@@ -41,6 +41,8 @@ docker-cli -switch-daemon (richtigen aufruf suchen)
 ==============================================
 mysql
 
+service mysql [start|stop]
+
 mysql_secure_installation
 
 sudo mysql  -u root -p
