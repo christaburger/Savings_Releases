@@ -1,0 +1,188 @@
+﻿body {
+
+    $expenses-color: #ffd6d6;
+    $target-done-color: #e2ffd6;
+    $balance-color: #011936;
+    $accounts-color: #848fa5;
+    $deposit-color: #c9e0ff;
+    $info_target_color: #545E75;
+
+
+    .form_background {
+        background-color: rgba(244, 241, 222, 1);
+        border-style: outset;
+    }
+
+    .expenses_general {
+        background-color: $expenses-color;
+    }
+
+    .account_container {
+        background-color: $accounts-color;
+    }
+
+    .account_edit_icon {
+        background-color: $accounts-color;
+        color: white;
+        border-style: none;
+    }
+
+    .account_card {
+        background-color: $accounts-color;
+        border-style: outset;
+        min-width: 190px;
+    }
+
+    .account_small_card {
+        background-color: $accounts-color;
+        border-style: outset;
+    }
+
+    .account_icon {
+        background-color: $accounts-color;
+        color: white;
+        border-style: none;
+    }
+
+    .account_button {
+        background-color: $accounts-color;
+        color: white;
+        border-color: rgba(1, 25, 54, 1);
+    }
+
+    .expenses_card {
+        background-color: $expenses-color;
+        border-style: outset;
+    }
+
+    .expenses_button {
+        background-color: $expenses-color;
+        border-color: rgba(1, 25, 54, 1)
+    }
+
+    .expenses_button_icon {
+        background-color: $expenses-color;
+        border-style: none;
+    }
+
+    .deposit_card {
+        background-color: $deposit-color;
+        border-style: outset;
+    }
+
+    .deposit_button {
+        background-color: $deposit-color;
+        border-color: rgba(1, 25, 54, 1);
+    }
+
+    .deposit_button_icon {
+        background-color: $deposit-color;
+        border-style: none;
+    }
+
+    .target_done_card {
+        background-color: $target-done-color;
+        border-style: outset;
+        min-width: 150px;
+    }
+
+    .target_open_card {
+        border-color: $target-done-color;
+        background-color: white; 
+        border-style: outset;
+        min-width: 150px;
+    }
+
+    .target_done_general {
+        background-color: $target-done-color;
+    }
+
+    .info_target_general {
+        background-color: $info_target_color;
+        color: white;
+    }
+
+    .info_target_card {
+        background-color: $info_target_color;
+        border-style: outset;
+        color: white;
+        min-width: 150px;
+    }
+
+    .info_target_add {
+        background-color: white;
+        border-color: $info_target_color;
+        border-style: outset;
+    }
+
+    .info_target_button_icon {
+        background-color: $info_target_color;
+        border-style: none;
+        color: white;
+    }
+
+    .target_done_button_icon {
+        background-color: $target-done-color;
+        border-style: none;
+    }
+
+    .balance_card {
+        background-color: $balance-color;
+        border-style: outset;
+        height: 150px;
+    }
+
+    .currency {
+        text-align: right;
+    }
+
+    .info_card {
+        background-color: white;
+        border-style: outset;
+        max-width: 150px;
+    }
+
+    .whatif_card {
+        background-color: white;
+        border-style: outset;
+        padding: 10px;
+    }
+
+    .tabcontent {
+        background-color: white;
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    h2 {
+        font-size: 1.0em;
+        font-weight: 500;
+        color: #555;
+    }
+}

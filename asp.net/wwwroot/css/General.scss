@@ -1,0 +1,20 @@
+﻿body {
+
+    $expenses-color: #ffd6d6;
+    $target-done-color: #e2ffd6;
+    $balance-color: #011936;
+    $accounts-color: #848fa5;
+    $deposit-color: #c9e0ff;
+    $info_target_color: #545E75;
+
+    .dashboard_background {
+        background-color: $deposit-color;
+        
+        border-style: solid;
+        border-color: $accounts-color;
+    }
+
+    .dashboard_tab {
+        background-color: white;
+    }
+}
